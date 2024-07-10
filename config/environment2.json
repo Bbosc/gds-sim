@@ -1,0 +1,18 @@
+{
+    "urdf": "franka_description/urdf/panda_no_gripper.urdf",
+    "n_gmm_components": 1,
+    "attractor": [90, 45, 0, -66, 0, 66, 45],
+    "initial_configuration": [0, 45, 0, -66, 0, 66, 45],
+    "initial_configuration_rad": [0, 0.7853, 0, -1.1519, 0, 1.1519, 0.7853],
+    "initial_velocities": [0, 0, 0, 0, 0, 0, 0],
+    "fps": 1,
+    "obstacles":[
+        [0.4, 0.53, 3.52],
+        [0.4, 0.51, 3.52],
+        [0.3, 0.45, 3.52]
+    ],
+    "Q": 0.1,
+    "R": 0.01,
+    "S": 500 
+
+}
